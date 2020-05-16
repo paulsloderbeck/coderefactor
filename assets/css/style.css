@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Removed header class and fixed CSS to style header element. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Changed name of header div to nav element and fized CSS to style nav element. */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,8 +49,8 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
+/* Renamed hero class as a figure, and changed styling to correspond to figure element.*/
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -68,7 +68,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Renamed div class content as main element, removed classes and applied CSS styling identically to all main sections, img, h2*/
 main {
     width: 75%;
     display: inline-block;
@@ -92,6 +92,7 @@ main > section h2 {
     font-size: 36px;
 }
 
+/* Renamed benefits div as an aside element, removed class for divs, and applied styling identically to all aside sections, img, and h3.*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -118,7 +119,7 @@ aside > section img {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Renamed div class footer as a footer element*/
 footer {
     padding: 30px;
     clear: both;
