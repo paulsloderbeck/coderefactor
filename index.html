@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <!--Header div was renamed header. The div below was renamed nav, and corresponding CSS was updated. The search engine optimization anchor was fixed by adding an id below.-->
+    <!--Header div was renamed header. The div below was renamed nav, and corresponding CSS was updated. 
+        The search engine optimization anchor was fixed by adding an id below.-->
     <header> 
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
@@ -29,7 +30,7 @@
     <!--Renamed div as a figure element. Added title to describe background image.-->
     <figure class="hero" title= "Team meeting reviewing plans"> </figure>
     <!--Content div was renamed main. Corresponding CSS was moved up to a more logical order under main CSS.
-    Div's within main were relabeld as sections, and given a main-section class to consolidate CSS. Added alt attribute for images. -->
+    Div's within main were relabeld as sections, and removed class to style all main sections identically in CSS. Added alt attribute for images. -->
     <main>
         <section id="search-engine-optimization" >
             <img src="./assets/images/search-engine-optimization.jpg" alt= "Brainstorming SEO notebook on a desk with coffee and pencils" class="float-left" />
@@ -53,29 +54,30 @@
             </p>
         </section>
     </main>
-    <!--Benefit div was renamed aside, and CSS classes were consolidated into a uniform aside-section, since all properties are identical-->
-    <aside class="aside">
-        <div class="aside-section">
+    <!--Renamed div as an aside element, renamed divs within it as sections, removed classes and style all aside sections identically in CSS,
+         since all properties are identical.-->
+    <aside>
+        <section>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="aside-section">
+        </section>
+        <section>
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="aside-section">
+        </section>
+        <section>
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
+        </section>
     </aside>
     <!--Footer div was renamed footer, and corresponding CSS was fixed.-->
     <footer>
