@@ -74,7 +74,7 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
-.main-section {
+main > section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,11 +83,11 @@ main {
     color: #ffffff;
 }
 
-.main-section img {
+main > section img {
     max-height: 200px;
 }
 
-.main-section h2 {
+main > section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
